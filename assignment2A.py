@@ -28,18 +28,24 @@ def random_array(a: int, b: int, n: int):
         DESCRIPTION.
 
     """
+    if a > b:
+        array = rnd.randint(b, a + 1, size = n)
+    else:
+        array = rnd.randint(a, b+1, size= n)
     
-    return None
+
+    return array
 
 
 
 def element_mult(x: np.ndarray, y: np.ndarray):
 
-    
+
     return None
 
 
 def find_max(x: np.ndarray):
+    
     
     return None
 
