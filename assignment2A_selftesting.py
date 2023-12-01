@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 # import the file with your solutions
-import assignment2A_solutions as asgmt
+import assignment2A as asgmt
 
 
 #!/usr/bin/env python3
